@@ -1,0 +1,3 @@
+//ADD SHORT CODE TO EITHER WP QUIZ OR CRITIC GAMES
+add_shortcode('wpquiz-pm', array(&$wpquizPMS, "displayAll"));
+add_shortcode('wpquiz-new', array(&$wpquizPMS, "newMessage"));
